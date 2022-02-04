@@ -13,7 +13,7 @@ IGV_2.4.10.zip:
 
 
 # build the Docker container from the current repo dir
-DOCKER_TAG:=stevekm/igv-snapshot-automator
+DOCKER_TAG:=modified/igv-snapshot-automator
 docker-build:
 	docker build -t "$(DOCKER_TAG)" .
 
